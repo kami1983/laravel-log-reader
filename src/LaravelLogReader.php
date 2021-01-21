@@ -104,6 +104,8 @@ class LaravelLogReader
 
     preg_match('/(?<=laravel-)(.*)(?=.log)/', $fileName, $dtMatch);
     $date = $dtMatch[0];
+	
+    $logs = array_reverse($logs);
 
     $data = [
       'available_log_dates' => $availableDates,

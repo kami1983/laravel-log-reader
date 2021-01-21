@@ -4,3 +4,11 @@
 
 ### 安装
 * composer require klib/laravel-log-reader
+
+### 版本
+
+#### v1.0.8
+* 修复日志文件没有倒序显示的BUG。
+
+#### v1.0.7
+* 基础版本上新增读取多行日志信息
