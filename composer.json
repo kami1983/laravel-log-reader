@@ -1,5 +1,5 @@
 {
-  "name": "haruncpi/laravel-log-reader",
+  "name": "klib/laravel-log-reader",
   "description": "A simple and beautiful laravel log reader",
   "license": "cc-by-4.0",
   "keywords": [
@@ -10,8 +10,8 @@
   "type": "library",
   "authors": [
     {
-      "name": "MD.HARUN-UR-RASHID",
-      "email": "harun.cox@gmail.com"
+      "name": "linhai",
+      "email": "kami@cancanyou.com"
     }
   ],
   "minimum-stability": "dev",
