@@ -35,6 +35,10 @@ php artisan vendor:publish --provider="Haruncpi\LaravelLogReader\ServiceProvider
 ```
 ### 版本
 
+#### v1.0.10
+* 替换 `https://cdn.bootcss.com/angular.js/1.6.7/angular.min.js` 为 `http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js` ，因为某些原因无法访问。
+
+
 #### v1.0.9
 * 替换 `https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js` 为 `https://cdn.bootcss.com/angular.js/1.6.7/angular.min.js` ，因为某些原因无法访问。
 
