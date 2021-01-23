@@ -35,6 +35,9 @@ php artisan vendor:publish --provider="Haruncpi\LaravelLogReader\ServiceProvider
 ```
 ### 版本
 
+#### v1.0.9
+* 替换 `https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js` 为 `https://cdn.bootcss.com/angular.js/1.6.7/angular.min.js` ，因为某些原因无法访问。
+
 #### v1.0.8
 * 修复日志文件没有倒序显示的BUG。
 

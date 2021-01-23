@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Log Reader</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+{{--    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>--}}
+    <script src="https://cdn.bootcss.com/angular.js/1.6.7/angular.min.js"></script>
 
     <script>
         var angularUrl = '{{asset('laravel-log-reader/angular.min.js')}}';
